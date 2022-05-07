@@ -1,0 +1,118 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+.signin h6{
+    border-top: 2px solid red;
+    padding: 5px 20px;
+    margin-right: 20px;
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+
+}
+.nav {
+   background-color: gray;
+   border-top: 2px solid red;
+   border-bottom: 2px solid red;
+   text-align: center;
+   margin-bottom: 30px;
+
+
+}
+.nav li{
+    list-style-type: none;
+    display: inline;
+    padding: 60px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.mesage{
+    border: 1px solid red;
+    width: 600px;
+    margin: 0 auto;
+}
+.mesage p{
+    text-align: center;
+    font-size: 22px;
+}
+.author{
+    display: flex;
+    justify-content: space-around;
+}
+.author h6{
+    font-size: 16px;
+}
+.icon{
+    margin-top: 40px;
+
+}
+.fa-brands{
+    padding: 10px;
+
+}
+.icon a{
+    text-decoration: none;
+    color: blue;
+}
+.hero{
+
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero img{
+    width: 600px;
+}
+.subheading{
+    width: 600px;
+    margin: 0 auto;
+}
+.info{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+
+}
+.info li, a{
+    list-style-type: square;
+    text-decoration: none;
+
+}
+.info h3{
+    text-align: center;
+}
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid red;
+
+}
+.footer img{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+}
+.footer li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 20px;
+}
+.footer ul{
+    margin-top: 30px;
+}
